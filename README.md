@@ -39,13 +39,4 @@ This tool is built for **Linux** (Debian/Ubuntu-based systems recommended).
 ```bash
 git clone https://github.com/yourusername/Network_Troubleshooter_Wizard.git
 
-### 2. Install Required Packages
 
-```bash
-sudo apt update
-sudo apt install python3-dialog net-tools iputils-ping dnsutils traceroute
-
-### 3. Run the Troubleshooter
-
-```bash
-python3 NTW.py
