@@ -32,11 +32,48 @@ This tool is built for **Linux** (Debian/Ubuntu-based systems recommended).
 
 ---
 
+
 ## 🔧 Installation
 
 ### 1. Clone this Repository
 
 ```bash
 git clone https://github.com/yourusername/Network_Troubleshooter_Wizard.git
+```
+### 2. Install Required Packages
+
+```bash
+sudo apt update
+sudo apt install python3-dialog net-tools iputils-ping dnsutils traceroute
+```
+
+
+## 🚀 Running the Tool
+
+python3 NTW.py
+
+
+## ⚙️ Example Use Cases
+
+- You're connected to WiFi but can't open websites
+
+- You're facing DNS errors
+
+- You're trying to debug which hop in the route is failing
+
+- You need a beginner-friendly tool to guide someone through fixing their internet
+
+
+## 🧪 Troubleshooting
+
+If the script does not work as expected:
+
+- Make sure all dependencies are installed
+
+- Run the script with sudo if a step requires administrative privileges
+
+- Try on a Debian-based system for best compatibility
+
+
 
 
