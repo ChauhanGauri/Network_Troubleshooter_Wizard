@@ -39,6 +39,7 @@ This tool is built for **Linux** (Debian/Ubuntu-based systems recommended).
 
 ```bash
 git clone https://github.com/yourusername/Network_Troubleshooter_Wizard.git
+cd Network_Troubleshooter_Wizard
 ```
 ### 2. Install Required Packages
 
